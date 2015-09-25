@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "YoloDev.Skiba Class Library",
+  "authors": [ "Alxandr" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+
+  "dependencies": {
+    "YoloDev.Skiba.Core": "",
+    "YoloDev.Skiba.Random": "",
+    "YoloDev.Skiba.Cipher": "",
+    "YoloDev.Skiba.Hash": "",
+    "YoloDev.Skiba.Kdf": "",
+    "YoloDev.Skiba.Mac": ""
+  },
+
+  "frameworks": {
+    "net45": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Runtime.Extensions": "4.0.11-*",
+        "System.Security.Cryptography.Algorithms": "4.0.0-*"
+      }
+    }
+  }
+}

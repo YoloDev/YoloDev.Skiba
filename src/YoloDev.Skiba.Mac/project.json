@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "YoloDev.Skiba.Mac Class Library",
+  "authors": [ "Alxandr" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+
+  "dependencies": {
+    "YoloDev.Skiba.Core": ""
+  },
+
+  "frameworks": {
+    "net45": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Security.Cryptography.Algorithms": "4.0.0-*"
+      }
+    }
+  }
+}

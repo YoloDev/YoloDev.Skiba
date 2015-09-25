@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "YoloDev.Skiba.Kdf Class Library",
+  "authors": [ "Alxandr" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+
+  "dependencies": {
+    "YoloDev.Skiba.Core": "",
+    "YoloDev.Skiba.Random": "",
+    "System.Collections.Immutable": "1.1.38-*"
+  },
+
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": ""
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Security.Cryptography.Algorithms": "4.0.0-*",
+        "System.Collections": "4.0.11-*",
+        "System.Runtime": "4.0.21-*"
+      }
+    }
+  }
+}
